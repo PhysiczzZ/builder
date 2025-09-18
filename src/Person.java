@@ -4,7 +4,7 @@ import java.util.OptionalInt;
 public class Person {
     protected final String name;
     protected final String surname;
-    protected int age = -1; // -1 означает "возраст неизвестен"
+    protected int age = -1; // "возраст неизвестен"
     protected String address;
 
     public Person(String name, String surname) {
